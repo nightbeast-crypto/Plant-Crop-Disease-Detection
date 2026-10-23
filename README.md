@@ -6,8 +6,6 @@
 ## Overview
 This project is a Next.js web application for plant-leaf disease classification. The browser uploads an image to the app's `/api/analyze` route, which calls a hosted Hugging Face Gradio Space and returns the model's diagnosis and top predictions. The classifier is hosted remotely; this repository does not contain or run the model locally.
 
-[Click Here](https://plant-disease-detection-two.vercel.app/) to go to the site.
-
 ## Features
 1. **Plant-health analysis:** Upload a leaf photo and review the predicted crop, condition, confidence, and top three classes.
 2. **Responsive interface:** A dark-themed Next.js and React interface supports uploading another image directly from the result.
@@ -17,10 +15,15 @@ This project is a Next.js web application for plant-leaf disease classification.
 ## Getting Started
 
 1. **Clone the Repository:**
-    - Start by cloning this GitHub repository to your local machine.
+    - Clone this repository and open its project directory:
+
+      ```powershell
+      git clone https://github.com/nightbeast-crypto/Plant-Crop-Disease-Detection.git
+      cd Plant-Crop-Disease-Detection
+      ```
 2. **Install Dependencies:**
     - Ensure you have Node.js and npm installed.
-    - Navigate to the frontend directory and run `npm install` to install dependencies.
+    - Run `npm install` from the project directory to install dependencies.
 
 3. **Run the Web Interface Locally:**
     - Start the development server using `npm run dev`.
