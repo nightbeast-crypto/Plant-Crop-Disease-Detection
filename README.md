@@ -12,6 +12,10 @@ This project is a Next.js web application for plant-leaf disease classification.
 3. **Hosted inference:** The server-side API integrates with a Hugging Face Gradio Space. Images are sent to that hosted service for analysis.
 4. **Transparent model limitations:** The current Space returns confidence rounded to whole percentages and does not expose model activations for Grad-CAM. It also does not estimate disease severity, so the UI does not display a heatmap or severity score.
 
+## Technical Documentation
+
+See [PROJECT_TECHNIQUES.md](./PROJECT_TECHNIQUES.md) for the application architecture, hosted model, image-preprocessing pipeline, inference techniques, reported evaluation metrics, and limitations.
+
 ## Getting Started
 
 1. **Clone the Repository:**
